@@ -1,16 +1,66 @@
-# React + Vite
+# Inventario Tecnológico
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Estudiantes
 
-Currently, two official plugins are available:
+Ayala Escalante Carlos Enzo - Fernandez Carballo Percy Rolfy
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Descripción
 
-## React Compiler
+Aplicación frontend desarrollada con React para la gestión de un inventario de equipos tecnológicos. El sistema permite registrar equipos mediante un formulario y visualizar dinámicamente los equipos registrados.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Funcionalidades
 
-## Expanding the Oxlint configuration
+- Registro de equipos tecnológicos.
+- Ingreso de nombre y marca.
+- Selección de categoría.
+- Registro de precio y stock.
+- Selección del estado del equipo.
+- Validación de los campos obligatorios.
+- Visualización dinámica de los equipos registrados.
+- Mensaje cuando no existen equipos registrados.
+- Interfaz desarrollada utilizando Bootstrap.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Tecnologías utilizadas
+
+- React
+- Vite
+- JavaScript
+- Bootstrap
+- Git
+- GitHub
+
+## Estructura del proyecto
+
+```text
+src/
+├── components/
+│   ├── Encabezado.jsx
+│   ├── FormularioEquipo.jsx
+│   └── Equipo.jsx
+│
+├── App.jsx
+├── main.jsx
+└── index.css
+```
+
+## Instrucciones de uso
+
+1. Clonar este repositorio: 
+```text
+git clone https://github.com/suspenzo/ayalaenzo-fernandezpercy-inventario.git
+```
+
+2. Ingresar a la carpeta del proyecto:
+```text
+cd ayala-enzo-inventario
+```
+
+3. Instalar las dependencias:
+```text
+npm install
+```
+
+4. Ejecutar el proyecto:
+```text
+npm run dev
+```
